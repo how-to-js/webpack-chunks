@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:chunks": "webpack -c webpack.chunks.js",
+    "webpack:no-chunks": "webpack -c webpack.no-chunks.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +14,8 @@
   "devDependencies": {
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
